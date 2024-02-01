@@ -12,6 +12,7 @@
 		D820C5DD2B6B95BE007CDE20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D820C5DC2B6B95BE007CDE20 /* ViewController.swift */; };
 		D820C5E22B6B95BF007CDE20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D820C5E12B6B95BF007CDE20 /* Assets.xcassets */; };
 		D820C5E52B6B95BF007CDE20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D820C5E32B6B95BF007CDE20 /* LaunchScreen.storyboard */; };
+		D820C5F22B6BBA6C007CDE20 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D820C5F12B6BBA6C007CDE20 /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D820C5E12B6B95BF007CDE20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D820C5E42B6B95BF007CDE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D820C5E62B6B95BF007CDE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D820C5F12B6BBA6C007CDE20 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				D820C5EE2B6B9633007CDE20 /* AppDelegate */,
+				D820C5F02B6BBA49007CDE20 /* Views */,
 				D820C5EF2B6B9648007CDE20 /* Controllers */,
 			);
 			path = App;
@@ -94,6 +97,14 @@
 				D820C5DC2B6B95BE007CDE20 /* ViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D820C5F02B6BBA49007CDE20 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D820C5F12B6BBA6C007CDE20 /* GradientView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +179,7 @@
 			files = (
 				D820C5DD2B6B95BE007CDE20 /* ViewController.swift in Sources */,
 				D820C5D92B6B95BE007CDE20 /* AppDelegate.swift in Sources */,
+				D820C5F22B6BBA6C007CDE20 /* GradientView.swift in Sources */,
 				D820C5DB2B6B95BE007CDE20 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
